@@ -1,0 +1,32 @@
+.body {
+    font-family: 'Montserrat', sans-serif;
+    background: #455A64;
+    color: #ECEFF1;
+    text-align: center;
+}
+
+.title {
+    text-transform: uppercase;
+    letter-spacing: .20rem;
+}
+
+.input, #result {
+    font-family: 'Montserrat', sans-serif;
+    color: #ECEFF1;
+    background: transparent;
+    width: 75%;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    border: 1px solid #ECEFF1;
+    border-radius: 5px;
+    outline: none;
+}
+
+#result {
+    border: 0
+}
+
+div {
+    font-size: 1.25rem
+}
