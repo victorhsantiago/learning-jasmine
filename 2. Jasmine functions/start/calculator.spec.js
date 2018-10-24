@@ -48,6 +48,7 @@ describe('calculator.js', function () {
 
         expect(calculator).toBeTruthy()
         expect(calculator2).toBeTruthy()
+        expect(calculator.constructor.name).toContain('Calc')
     })
 
     it('instatiates unique object', function () {
@@ -66,5 +67,10 @@ describe('calculator.js', function () {
         expect(calculator.divide).not.toBeUndefined()
     })
 
+    it('should be null', function () {
+        const calculator = new Calculator()
 
+        calculator.total = null
+        expect(calculator.total).toBeNull()
+    })
 })
